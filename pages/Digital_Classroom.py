@@ -19,7 +19,7 @@ def main():
 
     with tabs[0]:
     #    st.subheader("Spring 2025 Courses")
-        fall_url = 'https://github.com/MK316/MK-316/blob/main/pages/spring2025.md'
+        fall_url = 'https://github.com/MK316/spring2025/blob/main/README.md'
         fall_content = fetch_github_readme(fall_url)
         st.markdown(fall_content, unsafe_allow_html=True)
                     
