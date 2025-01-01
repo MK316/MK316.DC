@@ -15,7 +15,7 @@ def main():
     st.title('My Digital Classroom')
 
     # Set up tabs
-    tabs = st.tabs(["Spring 2025", Fall 2024", "Spring 2024", "Fall 2023", "Spring 2023", "Additional Content"])
+    tabs = st.tabs(["Spring 2025", "Fall 2024", "Spring 2024", "Fall 2023", "Spring 2023", "Additional Content"])
 
     with tabs[0]:
     #    st.subheader("Spring 2025 Courses")
